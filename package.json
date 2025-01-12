@@ -1,0 +1,44 @@
+{
+  "name": "better-sqlite3-orm",
+  "version": "0.5.0",
+  "description": "Light weight Object Relational Mapper for better-sqlite3",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --bail",
+    "gendoc": "jsdoc index.js lib/database.js lib/model.js lib/columns.js -d docs",
+    "stats": "sloc . --exclude node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miketerry-org/better-sqlite3-orm.git"
+  },
+  "keywords": [
+    "better-sqlite3",
+    "mini",
+    "miniture",
+    "small",
+    "thin",
+    "light",
+    "weight",
+    "sqlite",
+    "sqlite3",
+    "sql",
+    "orm",
+    "object",
+    "relational",
+    "mapper"
+  ],
+  "author": "miketerry.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miketerry-org/better-sqlite3-orm-orm/issues"
+  },
+  "homepage": "https://github.com/miketerry-org/better-sqlite3-orm#readme",
+  "dependencies": {
+    "better-sqlite3": "^11.5.0",
+    "better-sqlite3-multiple-ciphers": "^11.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

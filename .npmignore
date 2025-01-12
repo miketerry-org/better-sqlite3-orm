@@ -1,0 +1,10 @@
+.ds_store
+.gitignore
+.npmignore
+Docs/
+node_modules/
+Example/
+Out/
+package-lock.json
+yarn.lock
+Todo.md
