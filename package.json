@@ -1,9 +1,10 @@
 {
-  "name": "better-sqlite3-orm",
+  "name": "zyx-better-sqlite3-orm",
   "version": "0.5.0",
-  "description": "Light weight Object Relational Mapper for better-sqlite3",
+  "description": "setup better-sqlite3-orm database",
   "main": "index.js",
   "scripts": {
+    "dev": "NODE_ENV=dev node --watch index.js",
     "test": "jest --bail",
     "gendoc": "jsdoc index.js lib/database.js lib/model.js lib/columns.js -d docs",
     "stats": "sloc . --exclude node_modules"
