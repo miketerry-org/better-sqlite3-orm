@@ -1,6 +1,6 @@
 {
   "name": "better-sqlite3-orm",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Object Relational Mapper for Better-Sqlite3-Cypher",
   "main": "index.js",
   "scripts": {
