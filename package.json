@@ -1,7 +1,7 @@
 {
-  "name": "zyx-better-sqlite3-orm",
+  "name": "better-sqlite3-orm",
   "version": "0.5.0",
-  "description": "setup better-sqlite3-orm database",
+  "description": "Object Relational Mapper for Better-Sqlite3-Cypher",
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV=dev node --watch index.js",
