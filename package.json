@@ -1,11 +1,11 @@
 {
   "name": "better-sqlite3-orm",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Object Relational Mapper for Better-Sqlite3-Cypher",
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV=dev node --watch index.js",
-    "test": "jest --bail",
+    "test": "jest --bail --watch",
     "gendoc": "jsdoc index.js lib/database.js lib/model.js lib/columns.js -d docs",
     "stats": "sloc . --exclude node_modules"
   },
