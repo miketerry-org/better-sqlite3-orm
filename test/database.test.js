@@ -21,10 +21,10 @@ const userValues = {
 const db = new Database();
 
 // turn sql logging on
-db.logging = true;
+//  db.logging = true;
 
 test("connect/connected", () => {
-  db.connect({ filename: database_url });
+  db.connect(database_url);
   assert.strictEqual(db.connected, true);
 });
 

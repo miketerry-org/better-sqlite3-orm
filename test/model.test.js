@@ -21,7 +21,7 @@ const userValues = {
 const db = new Database();
 
 test("connect/connected", () => {
-  db.connect({ filename: database_url });
+  db.connect(database_url);
   assert.strictEqual(db.connected, true);
 });
 
